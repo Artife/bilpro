@@ -20195,7 +20195,7 @@ div.tagsinput {
 /* === Landing screens === */
 /* Auth */
 .auth.login-bg {
-  background: url("../images/auth/Login_bg.jpg");
+  background: url("../images/auth/bilpro-bg.png");
   background-size: cover; }
 
 .auth .login-half-bg {
@@ -20337,6 +20337,28 @@ div.tagsinput {
   .auth .terms a {
     text-decoration: underline; }
 
+span.error{
+  font-size: 12px;
+  color: #f23939;
+}
+.alert-danger {
+  color: #ffffff;
+  background-color: #f33842; 
+  border: none;
+}
+.alert-success {
+  color: #ffffff;
+  background-color: #11b457;
+  border: none;
+}
+.sidebar .nav .nav-item.profile .profile-desc .dropdown-menu .dropdown-item.preview-item .preview-thumbnail .preview-icon i {
+  margin-top: 5px;
+  font-size: 1.4em !important;
+}
+.sidebar .nav .nav-item .menu-icon i {
+  margin-top: 5px;
+  font-size: 1.4em !important;
+}
 /* Navbar */
 .navbar {
   font-weight: normal;
